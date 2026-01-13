@@ -55,19 +55,21 @@ The application will be available at `http://localhost:8080`
 ## 📁 Project Structure
 
 ```
-src/
-├── components/          # Reusable React components
-│   ├── ui/             # shadcn/ui component library
-│   └── [Component].tsx # Feature components
-├── pages/              # Route pages
-│   ├── Index.tsx       # Homepage
-│   ├── Portfolio.tsx   # Portfolio page
-│   └── services/       # Service pages
-├── hooks/              # Custom React hooks
-├── lib/                # Utility functions
-├── assets/             # Static assets (images, logos)
-├── App.tsx             # Root component with routing
-└── main.tsx            # Application entry point
+/
+├── index.html          # Vite HTML entry point
+└── src/
+    ├── components/     # Reusable React components
+    │   ├── ui/        # shadcn/ui component library
+    │   └── [Component].tsx # Feature components
+    ├── pages/          # Route-level pages
+    │   ├── Index.tsx   # Homepage
+    │   ├── Portfolio.tsx # Portfolio page
+    │   └── services/   # Service pages
+    ├── hooks/          # Custom React hooks
+    ├── lib/            # Utility functions
+    ├── assets/         # Static assets (images, logos)
+    ├── App.tsx         # Root component with routing
+    └── main.tsx        # React application entry point
 ```
 
 ## 🎨 Styling
